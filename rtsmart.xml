@@ -3,7 +3,7 @@
   <include name="remote_github.xml"/>
 
   <!-- sdk start -->
-  <project path="." name="superproject_k230_rtsmart" groups="sdk"  remote="canmv-k230" revision="dev"/>
+  <project path="." name="superproject_k230_rtsmart" groups="sdk"  remote="canmv-k230" revision="master"/>
 
   <project path="src/uboot/uboot" name="u-boot" groups="sdk" remote="canmv-k230" revision="canmv_k230"/>
   <project path="src/opensbi/opensbi" name="opensbi" groups="sdk" remote="canmv-k230" revision="canmv_k230"/>
