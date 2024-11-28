@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="canmv-k230" fetch="https://github.com/canmv-k230/"/>
+  <remote name="common" fetch="https://github.com/"/>
+  
+  <project name="canmv" path="src/canmv" remote="canmv-k230" revision="9e4d9ca2c5b69b73206334739ca0f07ab7f9c3d9" upstream="canmv_k230" dest-branch="canmv_k230" groups="canmv"/>
+  <project name="eliben/pycparser" path="src/canmv/port/3rd-party/lv_bindings/pycparser" remote="common" revision="3cf6bf5eb16f5eadd4a058e41596145c407a79ad" groups="canmv-common" clone-depth="1000"/>
+  <project name="freetype/freetype" path="src/canmv/port/3rd-party/freetype/freetype" remote="common" revision="1452355de99d22b0cba6ccc17bf5cdf3682ef61e" groups="canmv-common" clone-depth="100"/>
+  <project name="k230_rtsmart_lib" path="src/rtsmart/libs" remote="canmv-k230" revision="e3b0a3a0b07ead2fcb5ae1eb8f55d26b46b23423" upstream="refs/heads/v2.9.0" dest-branch="refs/heads/v2.9.0" groups="sdk-common"/>
+  <project name="kendryte/canmv_k230" path="." remote="common" revision="3404ce4061cace67502e061cb985f14219bb23dd" upstream="main" dest-branch="main" groups="super"/>
+  <project name="lvgl/lvgl" path="src/canmv/port/3rd-party/lv_bindings/lvgl" remote="common" revision="1bfdecf585bb50fbb22ed1c38450b5c9eb600196" groups="canmv-common" clone-depth="2000"/>
+  <project name="micropython" path="src/canmv/micropython" remote="canmv-k230" revision="0295137e60c0de862c8ee72d81c88d9e57e3973b" upstream="canmv_k230" dest-branch="canmv_k230" groups="canmv"/>
+  <project name="micropython-wrap" path="src/canmv/port/3rd-party/micropython-wrap" remote="canmv-k230" revision="65cc2cd570af28f43a10efbd6a7e199a69169bb5" upstream="canmv_k230" dest-branch="canmv_k230" groups="canmv"/>
+  <project name="micropython/axtls" path="src/canmv/micropython/lib/axtls" remote="common" revision="531cab9c278c947d268bd4c94ecab9153a961b43" groups="canmv-common" clone-depth="200"/>
+  <project name="micropython/micropython-lib" path="src/canmv/micropython/lib/micropython-lib" remote="common" revision="e025c843b60e93689f0f991d753010bb5bd6a722" groups="canmv-common" clone-depth="200"/>
+  <project name="mpp" path="src/rtsmart/mpp" remote="canmv-k230" revision="63fbafe84f89736b0095889370e863fccf494a10" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk"/>
+  <project name="opensbi" path="src/opensbi/opensbi" remote="canmv-k230" revision="1de130df4d57c842fde979b23e0e866ab0311486" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk"/>
+  <project name="rtsmart" path="src/rtsmart/rtsmart" remote="canmv-k230" revision="0cd1fcf33433de59505838eea67a1f4f3269d104" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk"/>
+  <project name="u-boot" path="src/uboot/uboot" remote="canmv-k230" revision="f130748a07f3a4ff52712eca3973cac2198b284f" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk"/>
+</manifest>
