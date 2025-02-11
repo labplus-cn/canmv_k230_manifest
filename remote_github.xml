@@ -2,4 +2,5 @@
 <manifest>
     <remote name="common" fetch="https://github.com/"/>
     <remote name="canmv-k230" fetch="https://github.com/canmv-k230/"/>
+    <remote name="labplus" fetch="https://github.com/labplus-cn/"/>
 </manifest>

@@ -3,7 +3,7 @@
   <include name="remote_github.xml"/>
 
   <!-- sdk start -->
-  <project path="." name="labplus-cn/canmv_k230" groups="super"  remote="common" revision="main"/>
+  <project path="." name="labplus-cn/canmv_k230" groups="super"  remote="labplus" revision="main"/>
 
   <project path="src/uboot/uboot" name="u-boot" groups="sdk" remote="canmv-k230" revision="canmv_k230"/>
   <project path="src/opensbi/opensbi" name="opensbi" groups="sdk" remote="canmv-k230" revision="canmv_k230"/>
@@ -22,7 +22,7 @@
   <project path="src/canmv/micropython/lib/axtls" name="micropython/axtls" groups="canmv-common" remote="common" clone-depth="200" revision="531cab9c278c947d268bd4c94ecab9153a961b43"/>
   <project path="src/canmv/micropython/lib/micropython-lib" name="micropython/micropython-lib" groups="canmv-common" remote="common" clone-depth="200" revision="e025c843b60e93689f0f991d753010bb5bd6a722"/>
 
-  <project path="src/canmv/port/3rd-party/lv_bindings/lvgl" name="lvgl/lvgl" groups="canmv-common" remote="common" clone-depth="2000" revision="1bfdecf585bb50fbb22ed1c38450b5c9eb600196"/>
+  <project path="src/canmv/port/3rd-party/lv_bindings/lvgl" name="lvgl/lvgl" groups="canmv-common" remote="labplus" clone-depth="2000" revision="canmv_k230"/>
   <project path="src/canmv/port/3rd-party/lv_bindings/pycparser" name="eliben/pycparser" groups="canmv-common" remote="common" clone-depth="1000" revision="3cf6bf5eb16f5eadd4a058e41596145c407a79ad"/>
 
   <project path="src/canmv/port/3rd-party/freetype/freetype" name="freetype/freetype" groups="canmv-common" remote="common" clone-depth="100" revision="1452355de99d22b0cba6ccc17bf5cdf3682ef61e"/>
